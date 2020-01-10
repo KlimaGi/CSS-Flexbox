@@ -1,0 +1,48 @@
+/************* for all ***************/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    background-color: lightgray;
+    width: 950px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/********** bigger left elemt *********/
+img {
+    width: 500px;
+}
+
+.bigger-foto {
+    float: left;
+    width: 500px;
+    padding: 10px;
+}
+
+/************ 3 foto block *************/
+.three_foto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 190px;
+}
+
+.small-element {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.float-right {
+    width: 200px;
+    padding-left: 10px;
+}
